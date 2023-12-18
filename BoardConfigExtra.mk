@@ -6,11 +6,6 @@
 
 VENDOR_EXTRA_PATH := vendor/extra
 
-# Camera
-ifneq ($(filter atoll lahaina,$(TARGET_BOARD_PLATFORM)),)
-TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
-endif
-
 # Camera - MiuiCamera
 # To use with external/jemalloc_new from AOSPA
 ifeq ($(TARGET_BOARD_PLATFORM), atoll)
