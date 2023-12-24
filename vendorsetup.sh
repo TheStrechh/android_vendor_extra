@@ -53,5 +53,5 @@ if [[ "${APPLY_PATCHES}" == "true" ]]; then
     done
 
     # Return to source rootdir
-    /home/carlos/lineage
+    cd /home/carlos/lineage
 fi
